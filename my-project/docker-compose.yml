@@ -1,12 +1,12 @@
-version: '3.8'
+version: "3.8"
 
 services:
   postgres:
     image: postgis/postgis
     environment:
-      POSTGRES_DB: JayZidCodes
-      POSTGRES_USER: JayChallenge   
-      POSTGRES_PASSWORD: challengeAccepted   
+      POSTGRES_DB: ChallengeAccepted
+      POSTGRES_USER: Ernesto
+      POSTGRES_PASSWORD: ThisPassword12!@
     ports:
       - "5432:5432"
     volumes:

@@ -1,0 +1,69 @@
+{
+  "kind": "collectionType",
+  "collectionName": "zipcodes",
+  "info": {
+    "singularName": "zipcode",
+    "pluralName": "zipcodes",
+    "displayName": "Zipcodes"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "zip": {
+      "type": "integer"
+    },
+    "type": {
+      "type": "string"
+    },
+    "decomissioned": {
+      "type": "boolean"
+    },
+    "primary_city": {
+      "type": "string"
+    },
+    "acceptable_cities": {
+      "type": "enumeration",
+      "enum": ["area_codes", "type"]
+    },
+    "unacceptable_cities": {
+      "type": "enumeration",
+      "enum": ["area_codes", "type"]
+    },
+    "state": {
+      "type": "string"
+    },
+    "county": {
+      "type": "string"
+    },
+    "timezone": {
+      "type": "string"
+    },
+    "area_codes": {
+      "type": "integer"
+    },
+    "world_region": {
+      "type": "string"
+    },
+    "country": {
+      "type": "string"
+    },
+    "latitude": {
+      "type": "float"
+    },
+    "longitude": {
+      "type": "float"
+    },
+    "irs_estimated_population": {
+      "type": "integer"
+    },
+    "location": {
+      "type": "json",
+      "configurable": false
+    }
+  }
+}
